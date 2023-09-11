@@ -1,0 +1,7 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: ip-172-31-17-119
+  username: database-1
+  password: 1234567890
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
